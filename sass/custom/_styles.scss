@@ -1,2 +1,12 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+// article .entry-content > p ul ol blockquote {
+//  font-size: .9em;
+// }
+
+#content p, #content ul, #content ol, #content blockquote {
+  font-weight: 400;
+  color: #555;
+  font-size: 0.9em;
+}

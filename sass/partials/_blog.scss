@@ -1,7 +1,9 @@
 article {
+  .entry-content { font-size: .9em }
   padding-top: 1em;
   a { @extend .force-wrap; }
   header {
+    text-align: center;
     position: relative;
     padding-top: 2em;
     padding-bottom: 1em;
