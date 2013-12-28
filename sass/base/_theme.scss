@@ -8,11 +8,11 @@ $link-color-visited: adjust-color($link-color, $hue: 80, $lightness: -4) !defaul
 $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
 
 // Main Section Colors
-$main-bg: #f7faf0 !default;
+$main-bg: #fff !default;
 $page-bg: #252525 !default;
 $article-border: #eeeeee !default;
 
-$header-bg: #333 !default;
+$header-bg: #fff !default;
 $header-border: lighten($header-bg, 15) !default;
 $title-color: #f2f2f2 !default;
 $subtitle-color: #aaa !default;
@@ -71,13 +71,14 @@ a {
 }
 
 html {
-  background: $page-bg image-url('line-tile.png') top left;
+  // background: $page-bg image-url('line-tile.png') top left;
+  background: #fff top left;
 }
 body {
   > div {
     // background: $sidebar-bg $noise-bg;
     background: $main-bg;
-    border-bottom: 1px solid $page-border-bottom;
+    // border-bottom: 1px solid $page-border-bottom;
     > div {
       background: $main-bg $noise-bg;
       // border-right: 1px solid $sidebar-border;
