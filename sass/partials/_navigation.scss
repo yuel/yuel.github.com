@@ -4,7 +4,7 @@ body > nav {
   // @include background($nav-bg-front, $nav-bg-back);
   border: {
     // top: 1px solid $nav-border-top;
-    bottom: 10px solid $nav-border-top; }
+    bottom: 1.9em solid $nav-border-top; }
   text-align: center;
   // padding-top: .35em;
   padding-bottom: .35em;
@@ -39,6 +39,7 @@ body > nav {
   ul { display: none; }
   @media only screen and (min-width: 550px) {
     font-size: .9em;
+    font-weight: 100;
     ul {
       @include horizontal-list(0);
       float: none;
@@ -60,9 +61,9 @@ body > nav {
       text-shadow: lighten($nav-bg, 12) 0 1px;
       float: left;
       text-decoration: none;
-      font-size: 1.1em;
+      font-size: 1.17em;
       padding: .1em 0;
-      line-height: 1.5em;
+      line-height: 1.17em;
     }
     li + li {
       // border-left: 1px solid $nav-border-left;
