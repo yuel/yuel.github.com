@@ -2,12 +2,13 @@ body > nav {
   position: relative;
   background-color: $nav-bg;
   // @include background($nav-bg-front, $nav-bg-back);
-  border: {
-    // top: 1px solid $nav-border-top;
-    bottom: 1.9em solid $nav-border-top; }
+  // border: {
+  //   top: 1px solid $nav-border-top;
+  //   bottom: 1.9em solid $nav-border-top; }
   text-align: center;
+  margin-bottom: 5em;
   // padding-top: .35em;
-  padding-bottom: .35em;
+  // padding-bottom: .35em;
   // form {
   //   @include background-clip(padding-box);
   //   margin: 0; padding: 0;

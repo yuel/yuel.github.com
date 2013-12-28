@@ -1,12 +1,12 @@
 article {
   .entry-content { font-size: .9em }
-  padding-top: 1em;
+  // padding-top: 1em;
   a { @extend .force-wrap; }
   header {
-    text-align: center;
+    // text-align: center;
     position: relative;
     padding-top: 2em;
-    padding-bottom: 1em;
+    // padding-bottom: 1em;
     margin-bottom: 1em;
     background: $img-border bottom left repeat-x;
     h1 {
@@ -26,7 +26,7 @@ article {
     }
     @media only screen and (min-width: 768px) {
       margin-bottom: 1.5em;
-      padding-bottom: 1em;
+      // padding-bottom: 1em;
       background: $img-border bottom left repeat-x;
     }
   }
