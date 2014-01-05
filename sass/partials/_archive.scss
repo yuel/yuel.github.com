@@ -5,7 +5,7 @@
   article {
     padding: 1em 0 1em;
     position: relative;
-    background: $img-border bottom left repeat-x;
+    // background: $img-border bottom left repeat-x;
     &:last-child {
       background: none;
     }
@@ -14,7 +14,7 @@
   h1 { color: $text-color; margin-bottom: .3em; }
   h2 { display: none; }
   h1 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     a {
       @include hover-link;
       color: inherit;
@@ -42,11 +42,11 @@
   &, .entry-content { a { @include link-colors(inherit, $link-color-hover); }}
   a:hover { color: $link-color-hover; }
   @media only screen and (min-width: 550px) {
-    article { margin-left: 5em; }
+    // article { margin-left: 5em; }
     h2 {
       margin-bottom: .3em;
       font-weight: normal;
-      display: inline-block;
+      // display: inline-block;
       position: relative; top: -1px;
       float: left;
       &:first-child { padding-top: .75em; }
@@ -55,11 +55,11 @@
       position: absolute;
       text-align: right;
       left: 0em;
-      top: 1.8em;
+      top: 2.85em; // cus
     }
     .year { display: none; }
     article {
-      padding:{left: 4.5em; bottom: .7em;}
+      // padding:{left: 4.5em; bottom: .7em;}
     }
   a.category {
     line-height: 1.1em;
