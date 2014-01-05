@@ -5,12 +5,13 @@ article {
   header {
     // text-align: center;
     position: relative;
-    padding-top: 2em;
+    padding-top: 1.3em;
     // padding-bottom: 1em;
     margin-bottom: 1em;
     background: $img-border bottom left repeat-x;
     h1 {
       margin: 0;
+      color: $post-title-color;
       a { text-decoration: none;
         &:hover { text-decoration: underline; } }
     }
@@ -32,7 +33,7 @@ article {
   }
   h2 {
     padding-top: 0.8em;
-    background: $img-border top left repeat-x;
+    // background: $img-border top left repeat-x;
   }
   .entry-content & h2:first-child, header + h2 { padding-top: 0; }
   h2:first-child, header + h2 { background: none; }
